@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600&display=swap");
+
+header {
+  padding-left: 30px;
+  letter-spacing: 5px;
+  display: flex;
+  align-itens: center;
+  justify-content: space-between;
+}
+
+.tema button {
+  align-self: end;
+  font-size: 16px;
+  font-weight: 650;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: linear-gradient(to right, #000000 40%, #ffffff 120%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #ecf4ff;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background: linear-gradient(190.85deg, #011232 27.26%, #999899 75.03%);*/
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  background: linear-gradient(to right, #000000 40%, #ffffff 120%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #ecf4ff;
+  margin: 64px;
+  padding: 64px;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.projects {
+  padding-bottom: 20px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.projects li {
+  justify-content: space-between;
+  list-style: none;
+}
+
+.projects a {
+  color: #ecf4ff;
+  text-decoration: none;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.projects a:hover {
+  padding-left: 10px;
+  color: #faf257;
+  transition: 200ms;
+}
+
+.description {
+  max-width: 900px;
+}
+
+.description h2 {
+  padding-left: 30px;
+}
+
+.profile {
+  display: flex;
+  align-itens: center;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.contact-links {
+  display: flex;
+  padding-bottom: 20px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 32px;
+  list-style: none;
+  align-itens: center;
+}
+
+.contact-links li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contact-links a {
+  color: #ecf4ff;
+  text-decoration: none;
+  padding: 0;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.contact-links img {
+  max-height: 40px;
+  filter: invert(100%);
+}
+
+.contact-links img:hover {
+  transition: 200ms;
+  filter: invert(70%);
+}
+
+.dark .container {
+  background: linear-gradient(to right, #ffffff 30%, #000000 140%);
+  opacity: 0.8;
+  color: #18181a;
+}
+
+.dark a {
+  color: #18181a;
+}
+
+.dark a:hover {
+  color: #1292c9;
+}
+
+.dark .contact-links img {
+  filter: invert(0%);
+}
+
+.contact-links img:hover {
+  transition: 200ms;
+  filter: invert(50%);
+}
+
+.dark .tema button {
+  background: linear-gradient(to right, #ffffff 10%, #000000 120%);
+  background: rgba(0, 0, 0, 0.1);
+  color: #18181a;
+}
